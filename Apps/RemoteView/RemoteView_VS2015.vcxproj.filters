@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\Fischertechnik\ftProInterface2013SocketCom.cpp" />
+    <ClCompile Include="AphRBCameraThread.cpp" />
+    <ClCompile Include="AphRBConnection.cpp" />
+    <ClCompile Include="FVisualElement.cpp" />
+    <ClCompile Include="FVisualizer.cpp" />
+    <ClCompile Include="TAPingPong.cpp" />
+    <ClCompile Include="Tutorial.cpp" />
+    <ClCompile Include="TutorialAppStd.cpp" />
+    <ClCompile Include="FCompBrick.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FCompGear.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FCompSensor.cpp">
+      <Filter>Components\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="FSensorLightBarrier.cpp">
+      <Filter>Components\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="FController.cpp">
+      <Filter>Components\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="FControllerTXT.cpp">
+      <Filter>Components\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="FCompEngine.cpp">
+      <Filter>Components\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="FEngineEncoder.cpp">
+      <Filter>Components\Engines</Filter>
+    </ClCompile>
+    <ClCompile Include="FComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FSensorUltrasonic.cpp">
+      <Filter>Components\Sensors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\Fischertechnik\ftProInterface2013SocketCom.h" />
+    <ClInclude Include="AphRBCameraThread.h" />
+    <ClInclude Include="AphRBConnection.h" />
+    <ClInclude Include="FVisualElement.h" />
+    <ClInclude Include="FVisualizer.h" />
+    <ClInclude Include="TAPingPong.h" />
+    <ClInclude Include="Tutorial.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TutorialAppStd.h" />
+    <ClInclude Include="FCompBrick.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FCompGear.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FCompSensor.h">
+      <Filter>Components\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="FSensorLightBarrier.h">
+      <Filter>Components\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="FController.h">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="FControllerTXT.h">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="FCompEngine.h">
+      <Filter>Components\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="FEngineEncoder.h">
+      <Filter>Components\Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="FComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FSensorUltrasonic.h">
+      <Filter>Components\Sensors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tutorial.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{560ed28e-fc7f-4e7a-b5dc-ff073d7acd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Controllers">
+      <UniqueIdentifier>{8e33baa4-9180-4de2-ae6c-2e3ad644674f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Engines">
+      <UniqueIdentifier>{5befd369-da9f-40bb-8dbe-426b8586b8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Sensors">
+      <UniqueIdentifier>{6b65bcd9-4abb-45bc-a50a-7e6a3045fd69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
